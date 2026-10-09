@@ -1,2 +1,14 @@
-# Monte-Carlo-Simulation---Yahtzee-Strategy-Evaluation
-A Monte Carlo simulation of solitaire Yahtzee and evaluated random, greedy, and heuristic decision policies across 100,000 independent game replications. Compared strategy performance using mean scores, standard deviations, 95% confidence intervals, score distributions, and pairwise statistical tests.
+# Yahtzee Simulation Project
+
+## How to Run
+1. Activate virtual environment
+2. Install dependencies:
+   pip install numpy scipy matplotlib
+3. Run:
+   python main.py
+
+## Files
+- game.py: game logic
+- strategies.py: strategies
+- analysis.py: statistics
+- main.py: runs simulations
